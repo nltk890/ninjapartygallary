@@ -282,7 +282,13 @@
                     `);
                 }
                 
-                const imageList = await response.json();
+                const imageList = ﻿[
+    "6UGMT7Ffq3Q.jpg",
+    "8A1DnnfTFbY.jpg",
+    "8yjmJ1lBnCQ.jpg",
+    "_lKJXfep4BY.jpg",
+    "Azuma_Mobile_WallPaper.png"
+];
                 
                 if (!Array.isArray(imageList) || imageList.length === 0) {
                     throw new Error('Images.json should contain an array of image filenames');
@@ -387,4 +393,5 @@
         document.addEventListener('DOMContentLoaded', loadImages);
     </script>
 </body>
+
 </html>
