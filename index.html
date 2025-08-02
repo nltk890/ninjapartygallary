@@ -267,7 +267,7 @@
                 // Try to load the images.json file
                 const response = await fetch('images/images.json');
                 
-                if (!response.ok) {
+                /*if (!response.ok) {
                     throw new Error(`
                         Images list not found! Please create an 'images.json' file in your images folder.
                         
@@ -280,7 +280,7 @@
                         • Windows: dir /b *.jpg *.png *.gif | ConvertTo-Json > images.json
                         • Or manually list your files in the JSON format above.
                     `);
-                }
+                }*/
                 
                 const imageList = ﻿[
     "6UGMT7Ffq3Q.jpg",
@@ -395,3 +395,4 @@
 </body>
 
 </html>
+
