@@ -1,2 +1,2 @@
 # ninjapartygallary
-ninja party Gallary
+ninja party Gallary Safe use only
